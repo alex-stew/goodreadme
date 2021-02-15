@@ -25,7 +25,7 @@ function generateMarkdown(data) {
   - [Questions](#questions)
 
   ## Description:
-  ![License](https://img.shields.io/badge/License-${data.license}-blue.svg "License Badge")n\
+  ![License](https://img.shields.io/badge/License-${data.license}-blue.svg "License Badge")
     ${data.description}
   ## Installation:
     ${data.installation}
