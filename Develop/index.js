@@ -78,7 +78,7 @@ async function init() {
         const data = await inquirer.prompt(questions);
         const readMe = generateMarkdown(data);
 
-        await writeToFile(`${data.title}".md", readMe`);
+        await writeToFile("new-readME.md", readMe);
     } catch (err) {
         console.log(err);
     }
